@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "natureseyes",
+    "packageName": "com.bafconsulting.natureseyes",
+    "packageFolder": "com/bafconsulting/natureseyes",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "72214d885df8277c3256ec86c84f91fb90b8e1fe",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
