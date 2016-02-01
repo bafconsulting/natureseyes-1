@@ -1,0 +1,25 @@
+{
+  "name": "angular-youtube-player",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bulkismaslom/angular-youtube-player",
+  "description": "Angular module for youtube player API",
+  "authors": [
+    "Sergey Myasnikov <bulkismaslom@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "3c5b7fe84d1bc85385ba03b76d6acb5d8100a32e"
+  },
+  "_source": "git://github.com/bulkismaslom/angular-youtube-player.git",
+  "_target": "~1.0.0",
+  "_originalSource": "angular-youtube-player",
+  "_direct": true
+}

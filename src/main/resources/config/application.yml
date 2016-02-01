@@ -27,18 +27,18 @@ spring:
     social:
         # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
         google:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: 632897212164-kkua1oaitb70mj8542e277a8dltuev6l.apps.googleusercontent.com
+            clientSecret: CBOK4AAZmihCi1uSuEs6VqB0
 
         # see https://developers.facebook.com/docs/facebook-login/v2.2
         facebook:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: 161246197584895
+            clientSecret: b5db41d8e60703a3d8b570fecebf4c9b
 
         # see https://apps.twitter.com/app/
         twitter:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: JRukwmIj69Hyvq48B3MlU5mdy
+            clientSecret: YJV16e7y5oBYOJIrr3IVXoaMLjAi5otudXeCwSqmDrpeRUddWN
 
         # jhipster-needle-add-social-configuration
 
@@ -63,7 +63,8 @@ jhipster:
         #allow-credentials: true
         #max-age: 1800
     mail:
-        from: natureseyes@localhost
+        #from: natureseyes@localhost
+        from: bryn.flewelling@hotmail.com
     security:
         rememberme:
             # security key (this key should be unique for your application, and kept secret)
