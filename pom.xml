@@ -405,6 +405,22 @@
             <artifactId>spring-social-twitter</artifactId>
             <version>${spring-social-twitter.version}</version>
         </dependency>
+    <dependency>
+        <groupId>org.springframework.social</groupId>
+        <artifactId>spring-social-linkedin</artifactId>
+        <version>1.0.0.RELEASE</version>
+    </dependency>
+     <dependency>
+        <groupId>org.springframework.social</groupId>
+        <artifactId>spring-social-github</artifactId>
+        <version>1.0.0.M4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-youtube</artifactId>
+      <version>v3-rev161-1.21.0</version>
+    </dependency>
+    
         <!-- jhipster-needle-maven-add-dependency -->
     </dependencies>
     <build>

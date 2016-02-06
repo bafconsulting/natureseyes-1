@@ -1,0 +1,23 @@
+{
+    "natureseyesApp": {
+        "broadcasts" : {
+            "home": {
+                "title": "Broadcastss",
+                "createLabel": "Create a new Broadcasts",
+                "createOrEditLabel": "Create or edit a Broadcasts",
+                "search": "Search for Broadcasts"
+            },
+            "created": "A new Broadcasts is created with identifier {{ param }}",
+            "updated": "A Broadcasts is updated with identifier {{ param }}",
+            "deleted": "A Broadcasts is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Broadcasts {{ id }}?"
+            },
+            "detail": {
+                "title": "Broadcasts"
+            },
+            "broadcastName": "BroadcastName",
+            "broadcastDescription": "BroadcastDescription"
+        }
+    }
+}

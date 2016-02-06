@@ -39,6 +39,11 @@ spring:
         twitter:
             clientId: JRukwmIj69Hyvq48B3MlU5mdy
             clientSecret: YJV16e7y5oBYOJIrr3IVXoaMLjAi5otudXeCwSqmDrpeRUddWN
+  
+        # see https://www.linkedin.com/developer/apps/
+        linkedin:
+            clientId: 77hgwo4rurmpnj
+            clientSecret: P5Jji4VjY5DGiVsv
 
         # jhipster-needle-add-social-configuration
 
