@@ -1,0 +1,25 @@
+{
+  "name": "formchimp",
+  "version": "1.2.1",
+  "main": "jquery.formchimp.js",
+  "authors": [
+    { "name": "Fabio Quarantini", "homepage": "http://www.fabioquarantini.com" }
+  ],
+  "description": "A customizable MailChimp ajax plugin for jQuery",
+  "dependencies": {
+    "jquery": ">=1.11.1"
+  },
+  "keywords": [
+    "formchimp",
+    "mailchimp",
+    "form",
+    "ajax",
+    "newsletter"
+  ],
+  "homepage": "http://www.fabioquarantini.com/formchimp/",
+  "ignore": [
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "license": "MIT"
+}
