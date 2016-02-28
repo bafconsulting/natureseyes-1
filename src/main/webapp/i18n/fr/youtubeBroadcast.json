@@ -1,0 +1,27 @@
+{
+    "natureseyesApp": {
+        "youtubeBroadcast" : {
+            "home": {
+                "title": "YoutubeBroadcasts",
+                "createLabel": "Créer un nouveau YoutubeBroadcast",
+                "createOrEditLabel": "Créer ou éditer un YoutubeBroadcast",
+                "search": "Search for YoutubeBroadcast"
+            },
+            "created": "Un nouveau YoutubeBroadcast a été créé avec l'identifiant {{ param }}",
+            "updated": "Le YoutubeBroadcast avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le YoutubeBroadcast avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le YoutubeBroadcast {{ id }} ?"
+            },
+            "detail": {
+                "title": "YoutubeBroadcast"
+            },
+            "title": "Title",
+            "description": "Description",
+            "privacyStatus": "PrivacyStatus",
+            "scheduledStartTime": "ScheduledStartTime",
+            "scheduledEndTime": "ScheduledEndTime"
+        }
+    }
+}
+

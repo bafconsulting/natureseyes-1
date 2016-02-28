@@ -1,0 +1,39 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "privacyStatus",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "scheduledStartTime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "scheduledEndTime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20160227195543",
+    "dto": "no",
+    "service": "serviceClass",
+    "pagination": "pagination"
+}
