@@ -22,13 +22,13 @@
         {
             "fieldId": 4,
             "fieldName": "scheduledStartTime",
-            "fieldType": "ZonedDateTime",
+            "fieldType": "DateTime",
             "fieldValidateRules": []
         },
         {
             "fieldId": 5,
             "fieldName": "scheduledEndTime",
-            "fieldType": "ZonedDateTime",
+            "fieldType": "DateTime",
             "fieldValidateRules": []
         }
     ],

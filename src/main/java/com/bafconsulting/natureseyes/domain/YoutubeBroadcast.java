@@ -5,6 +5,8 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import java.time.ZonedDateTime;
 import org.springframework.data.elasticsearch.annotations.Document;
 
+import com.google.api.client.util.DateTime;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
@@ -32,10 +34,10 @@ public class YoutubeBroadcast implements Serializable {
     private String privacyStatus;
     
     @Column(name = "scheduled_start_time")
-    private ZonedDateTime scheduledStartTime;
+    private DateTime scheduledStartTime;
     
     @Column(name = "scheduled_end_time")
-    private ZonedDateTime scheduledEndTime;
+    private DateTime scheduledEndTime;
     
     public Long getId() {
         return id;
@@ -69,19 +71,19 @@ public class YoutubeBroadcast implements Serializable {
         this.privacyStatus = privacyStatus;
     }
 
-    public ZonedDateTime getScheduledStartTime() {
+    public DateTime getScheduledStartTime() {
         return scheduledStartTime;
     }
     
-    public void setScheduledStartTime(ZonedDateTime scheduledStartTime) {
+    public void setScheduledStartTime(DateTime scheduledStartTime) {
         this.scheduledStartTime = scheduledStartTime;
     }
 
-    public ZonedDateTime getScheduledEndTime() {
+    public DateTime getScheduledEndTime() {
         return scheduledEndTime;
     }
     
-    public void setScheduledEndTime(ZonedDateTime scheduledEndTime) {
+    public void setScheduledEndTime(DateTime scheduledEndTime) {
         this.scheduledEndTime = scheduledEndTime;
     }
 

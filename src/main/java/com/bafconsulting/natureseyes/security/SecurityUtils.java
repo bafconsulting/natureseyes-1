@@ -7,6 +7,8 @@ import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.social.connect.Connection;
+import org.springframework.social.google.api.Google;
 
 import java.util.Collection;
 
@@ -17,7 +19,8 @@ public final class SecurityUtils {
 
     private SecurityUtils() {
     }
-
+    public static Connection<Google> connection ;
+	//public static Connection<?> connection;
     /**
      * Get the login of the current user.
      */

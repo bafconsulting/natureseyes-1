@@ -6,7 +6,7 @@ angular.module('natureseyesApp')
 
         socialService.getProviderSetting = function (provider) {
             switch(provider) {
-                case 'google': return 'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email';
+                case 'google': return 'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/urlshortener';
                 case 'facebook': return 'public_profile,email';
                 case 'twitter': return '';
                 // jhipster-needle-add-social-button
