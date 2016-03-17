@@ -31,7 +31,10 @@ import com.google.api.client.util.DateTime;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.*;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
@@ -260,7 +263,8 @@ public class YoutubeBroadcastService {
             System.err.println("Throwable: " + t.getMessage());
             t.printStackTrace();
         }
-        
+                SSH2ConnectService ssh2connect = new SSH2ConnectService();
+                ssh2connect.sshConnect();
         //embedHtml
         youtubeBroadcastSearchRepository.save(result);
         //youtubeBroadcastRepository.save(result);
